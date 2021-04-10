@@ -1,0 +1,58 @@
+<!doctype html>
+<head>
+    <title> Quiz </title>
+    <script src="main.js" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+    <h1 class="h1"> Anonymous Quiz </h1>
+    <div class="container">
+        <br>
+    <ol>
+    <li>
+    <h3>Who will be the next CM of tamilnadu </h3>
+     <input type="radio" name="ques1" >ADMK <br>
+     <input type="radio" name="ques1"> DMK<br>
+     <input type="radio" name="ques1"> MNM<br>
+     <input type="radio" name="ques1"> NTK<br>
+        </li>
+        <li>
+            <h3>Which Color have higher wavelength </h3>
+             <input type="radio" name="ques2">Blue <br>
+             <input type="radio" name="ques2"> Green<br>
+             <input type="radio" name="ques2"> Red<br>
+             <input type="radio" name="ques2"> Orange<br>
+                </li>
+                <li>
+                    <h3>Brain of induction motor</h3>
+                     <input type="radio" name="ques3">Edison <br>
+                     <input type="radio" name="ques3"> Nikola tesla<br>
+                     <input type="radio" name="ques3"> Faraday<br>
+                     <input type="radio" name="ques3"> Charless babage<br>
+                        </li>
+                        <li>
+                            <h3>The imitation game movie is inspired by Alan turing </h3>
+                             <input type="radio" name="ques4"> Yes<br>
+                             <input type="radio" name="ques4"> No<br>
+                                </li>
+                                <li>
+                                    <h3>Who is the richest person in the world</h3>
+                                     <input type="radio" name="ques5">Bill gates <br>
+                                     <input type="radio" name="ques5"> Steve jobs<br>
+                                     <input type="radio" name="ques5"> Elon musk<br>
+                                     <input type="radio" name="ques5"> Jeff Bezos<br>
+                                        </li>
+                            </ol>
+                        </div>
+                            <input type="submit" onclick="validateAnswer()"  class="submitbtn">
+                            <br>
+                            <br>
+                            <div class="scoreboard">
+                            <p> Score </p>
+                            <input type="number" value=0 id="dispResult">
+                            <br>
+                            <br>
+                            <p id="feedback"></p>
+                            </div>
+
+</body>

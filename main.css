@@ -1,0 +1,51 @@
+.h1{
+    width:300px;
+    margin:auto;
+text-align:center;
+color:blue;
+font-size:40px;
+background-color:lightblue;
+border: 6px black double; */
+}
+
+body
+{
+background-image: url("bg.jpeg");
+
+}
+
+.scoreboard
+{
+    background-color:#0a5d6c;
+    color:white;
+    width:180px;
+    margin:auto;
+}
+
+.container
+{
+background-color:lightblue;
+height:600px;
+overflow:scroll;
+}
+
+p
+{
+font-size:20px;
+
+}
+
+#feedback
+{
+text-align:center;
+}
+
+.submitbtn
+{
+margin:6px;
+margin-left:47%;
+padding:15px;
+font-size:20px;
+background-color:#0a5d6c;
+color:white;
+}
